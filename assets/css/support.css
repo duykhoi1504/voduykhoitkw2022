@@ -1,0 +1,367 @@
+html,body{
+    margin: 0;
+    
+}
+body{
+    background:#fff;
+    color:#221f1f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+/* .global-container{
+    margin-bottom: -256px;
+     min-height:100%; 
+} */
+.global-header{
+    position:relative;
+    background-color: #000;
+}
+
+.page-home .global-header > .container{
+    padding-top: 24px;
+}
+.page-home .container{
+    max-width:1248px;
+    height:215px;
+}
+/* .global-header > .container{
+    position: relative;
+} */
+.container{
+    margin: 0 auto;
+    padding: 0 48px;
+}
+.global-header .inner-container{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 16px;
+}
+a{
+    color:#e88b2f;
+    text-decoration: none;
+    font-weight:400;
+    font-size: 36px;
+}
+.account-dropdown > .dropdown a:hover{
+    text-decoration: underline;
+}
+
+.global-header .inner-container .actions {
+    flex:1 0;   
+    /* flex-grow chỉ định phần tử con đó sẽ được tăng chiều ngang ; flex-shrink mặc định là 1, nghĩa là nó sẽ theo nội dung và các phần tử khác. Tuy nhiên nếu sửa giá trị thành 0 Nó sẽ hiểu là hãy giữ nguyên kích thước, kể cả có vỡ layout */
+}
+.global-header .actions{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0 0 0 16px;
+      justify-content: flex-end;
+      
+}
+ul{
+    list-style: none;
+}
+.global-header .dropdown{
+    position: relative;
+    z-index: 1;
+   
+}
+/* Phần account và nút dropdown */
+.global-header .dropdown .dropdown-toggle{
+    border-radius: 2px;
+    color: lightgray;
+    display: block;
+    padding-right: 32px;
+    font-size:16px;
+   position: relative;
+}
+
+/* Phần dropdown-menu */
+
+
+.global-header .dropdown .dropdown-menu{
+      background-color: #f5f5f1;
+      border-radius:3px;
+      box-shadow: 0 0 1px #b6b5b2;
+      margin-top: 16px;
+      padding: 16px;
+      position:absolute;
+      right:-110%;
+      top:80%;
+}
+
+.global-header .dropdown .dropdown-menu li{
+    display: block;
+    margin: 0 0 8px;
+}
+.global-header  .dropdown .dropdown-menu a{
+        font-size: 16px;
+        line-height: 24px;
+        color: #1e1e2a;
+        white-space: nowrap; 
+        /*  white-space: nowrap : Văn bản sẽ hiển thị trên cùng một hàng */
+}
+/* Phần hiển thị nút dropdown-menu */
+.active_menu  {
+    display:block !important;
+}
+
+.dropdown-menu{
+    display:none;
+}
+/**********************************************/
+          /* Phần chữ ở middle trang */
+.page-home .global-header .word-middle{
+      padding-bottom: 24px;
+      text-align: center;
+}
+.page-home .global-header .word-middle .helpcenter{
+    margin: 0 auto;
+    font-size: 32px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+    line-height: 32px;
+}
+   /* Phần nút search-support */
+   .page-home .global-header form{
+        max-width:65%;
+        margin: 0 auto;
+        padding-bottom: 34px;
+   }
+   .input-group .search-control-wrapper{
+     position: relative;
+     top:0;
+   }
+
+   .input-group .form-control{
+      border-color: #8b8a88;
+      padding: 9px 16px 9px 56px;
+   }
+   .form-control{
+          font-size: 16px;
+          line-height: 25px;
+          border:1px solid #d5d4d1;
+          box-sizing: border-box;
+          width: 100%;
+          border-radius: 4px;
+          color:#221f1f;
+   }
+  /* Vị trí của icon search */
+   .bx-search{
+    border:0;
+    position: absolute;
+    top:50%;
+    left:20px;
+    display:block;
+    width: 24px;
+    height:24px;
+    margin-top: -10px;
+   }
+  /**************************BODY******************************/
+.personalization{
+    display: block;
+    padding-top: 32px;
+    background-color: #fafafa;
+    border-bottom: 1px solid lightgray;
+}
+.page-home .containers{
+    max-width:1248px;
+}
+.containers{
+    margin:0 auto;
+    padding: 0 48px;
+}
+.personalization > .containers  > h2{
+    max-width: 100%;
+    white-space: nowrap;
+   
+}
+.personalization > .personalization-module{
+    padding-bottom: 30px ;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
+/* .recommendations>.recommendations-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 -8px;
+} */
+.recommendation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 16px;
+}
+.recommendation .help-card{
+  
+    margin: 0 8px;
+    padding: 0;
+}
+
+.help-card{
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 16px #0000001a;
+}
+.recommendation .box {
+    
+    padding: 16px;
+    text-decoration: none!important;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.recommendation .icon {
+    display: block;
+    margin: 0 0 0 16px;
+    width: 24px;
+    height: 24px;
+}
+.recommendation .title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #221f1f;
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    cursor: pointer;
+}
+.title:hover{
+    color:#e88b2f;
+    text-decoration: underline;
+    -webkit-transform: scale(1.05);
+     -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+       -o-transform: scale(1.05);
+          transform: scale(1.05);  
+}
+
+/*************************Last***********************************/
+.global-footer{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    background:#282c2f;
+    display: block;
+    height: 330px;
+}
+.global-contactbar{
+    background: #f2f2f2;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 24px 0;
+    text-align: right;
+}
+.global-contactbar .bar-title{
+    font-size: 24px;
+    font-weight: 600;
+    float:left;
+    line-height: 48px;
+    margin: 0;
+}
+.global-contactbar.channel{
+    display: inline-block;
+    vertical-align:top;
+}
+
+.btn-lightgray{
+    background-color: #fff;
+    color: #4c4948;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    cursor:pointer;
+    border:1px solid black;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display:inline-block;
+    padding: 16px;
+    text-transform: uppercase;
+}
+.btn-lightgray:hover{
+    background-color: blanchedalmond;
+    transform: scale(1.03);  
+}
+/* .global-footer > .dark-area{
+    padding-bottom: 72px;
+    padding-top: 40px;
+} */
+                   /* Footer-left */
+.global-footer.location-flex{
+    float: left;
+}
+.location_1,.location_2,.numberphone_info,.gmail_info{
+    line-height: 20px;
+    font-size: 16px;
+    position: relative;
+    right: -40px;
+    top: 5px;
+    color: whitesmoke;
+
+    
+}
+.location_info> .bxs-location-plus{
+    background-color: wheat;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    cursor: pointer;
+}
+.numberphone-flex>.bxs-phone{
+    background-color: wheat;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    cursor: pointer;
+}
+.gmail-flex>.bx-envelope{
+    background-color: wheat;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    cursor: pointer;
+}
+                     /* Footer-right */
+
+.global-footer .footer-links{
+    float:right;
+    margin: 0;
+    position: relative;
+    top:-34%;
+}
+ .global-footer .footer-links .legalese-item{
+    float: left;
+    margin-left: 32px;
+    
+}
+.global-footer>.dark-area a{
+        color:#8b8a88;
+        font-size: 16px;
+}
+.global-footer> .dark-area a:hover{
+      text-decoration: underline;
+      color:lightgray;
+}
+
