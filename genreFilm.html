@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/genreFilm.css">
+    <script src="assets/js/genreFilm.js"></script>
+    <link rel="icon" href="imgs/LOGOMAINPNG.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ===========header======================== -->
+    <div class="header flex flexcenter flexbetween ">
+        <div class="logo">
+            <img src="/imgs/logo/293337628_458360519137203_2346414462818711296_n-removebg-preview.png" alt="logo">
+        </div>
+        <div class="subright flex flexcenter">
+            <div class="nav ">
+                <ul class="subnav flex ">
+                    <li><a href="index.html">home</a></li>
+                    <li class="genre"><a href="">genre</a>
+                        <div class="subgenre ">
+                            <ul class="sublist ">
+                                <li><a href="">Adventure films</a></li>
+                                <li><a href="">Martial Arts films</a></li>
+                                <li><a href="">Horror films</a></li>
+                                <li><a href="">Science Fiction Films</a></li>
+                                <li><a href="">Animation films</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">popular</a></li>
+                    <li><a href="">hot-trend</a></li>
+                </ul>
+            </div>
+            <div class="search_boss flex flexend">
+                <div class="search flex flexcenter">
+                    <div class="icon_search flex flexcenter">
+                        <i onclick="addsearch()" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="input flex flexcenter">
+                        <input type="text" name="searchbox" placeholder="search film" autocomplete="on">
+                    </div>
+                </div>
+            </div>
+            <div class="bell">
+                <i class=" fa-solid fa-bell"></i>
+                <div class="bell_menu ">
+                    <div class="bell_items">
+                        <div class="bell_item flex flexcenter">
+                            <div class="bell_img">
+                                <img src="/imgs/films noice/AAAABR1mpkCqnO8XkmpkH51M20KIYXrx36yHvMBFTG0sv0YynY3KN7U9rt1xCgLY8_wbM47qufrtxh3Z75kkr0KkQ7rL7XkB7JjW-mQ.jpg"
+                                    alt="cau be sieu nang luc">
+                            </div>
+                            <div class="bell_title">
+                                <p>Đã ra mắt tập 12</p>
+                                <p>cách đây 1 tuần</p>
+                            </div>
+                        </div>
+                        <div class="bell_item flex flexcenter">
+                            <div class="bell_img">
+                                <img src="/imgs/films noice/AAAABR1mpkCqnO8XkmpkH51M20KIYXrx36yHvMBFTG0sv0YynY3KN7U9rt1xCgLY8_wbM47qufrtxh3Z75kkr0KkQ7rL7XkB7JjW-mQ.jpg"
+                                    alt="cau be sieu nang luc">
+                            </div>
+                            <div class="bell_title">
+                                <p>Đã ra mắt tập 12</p>
+                                <p>cách đây 1 tuần</p>
+                            </div>
+                        </div>
+                        <div class="bell_item flex flexcenter">
+                            <div class="bell_img">
+                                <img src="/imgs/films noice/AAAABR1mpkCqnO8XkmpkH51M20KIYXrx36yHvMBFTG0sv0YynY3KN7U9rt1xCgLY8_wbM47qufrtxh3Z75kkr0KkQ7rL7XkB7JjW-mQ.jpg"
+                                    alt="cau be sieu nang luc">
+                            </div>
+                            <div class="bell_title">
+                                <p>Đã ra mắt tập 12</p>
+                                <p>cách đây 1 tuần</p>
+                            </div>
+                        </div>
+                        <div class="bell_item flex flexcenter">
+                            <div class="bell_img">
+                                <img src="/imgs/films noice/AAAABR1mpkCqnO8XkmpkH51M20KIYXrx36yHvMBFTG0sv0YynY3KN7U9rt1xCgLY8_wbM47qufrtxh3Z75kkr0KkQ7rL7XkB7JjW-mQ.jpg"
+                                    alt="cau be sieu nang luc">
+                            </div>
+                            <div class="bell_title">
+                                <p>Đã ra mắt tập 12</p>
+                                <p>cách đây 1 tuần</p>
+                            </div>
+                        </div>
+                        <div class="bell_item flex flexcenter">
+                            <div class="bell_img">
+                                <img src="/imgs/films noice/AAAABR1mpkCqnO8XkmpkH51M20KIYXrx36yHvMBFTG0sv0YynY3KN7U9rt1xCgLY8_wbM47qufrtxh3Z75kkr0KkQ7rL7XkB7JjW-mQ.jpg"
+                                    alt="cau be sieu nang luc">
+                            </div>
+                            <div class="bell_title">
+                                <p>Đã ra mắt tập 12</p>
+                                <p>cách đây 1 tuần</p>
+                            </div>
+                        </div>
+                        <div class="bell_item flex flexcenter">
+                            <div class="bell_img">
+                                <img src="/imgs/films noice/AAAABR1mpkCqnO8XkmpkH51M20KIYXrx36yHvMBFTG0sv0YynY3KN7U9rt1xCgLY8_wbM47qufrtxh3Z75kkr0KkQ7rL7XkB7JjW-mQ.jpg"
+                                    alt="cau be sieu nang luc">
+                            </div>
+                            <div class="bell_title">
+                                <p>Đã ra mắt tập 12</p>
+                                <p>cách đây 1 tuần</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="avatar flex flexcenter">
+
+                <img class="avatar_img" src="/imgs/OIP (2).jfif" alt="">
+
+                <i class="fa-solid fa-caret-down"></i>
+                <div class="avatar_menu flex_column">
+                    <div class="person flex flexcenter">
+                        <div class="person_img">
+                            <img src="/imgs/avatar/273288059_1839948503061140_3492401527090932606_n.jpg"
+                                alt="Vo Duy Khoi">
+                        </div>
+                        <p class="person_name">
+                            Võ Duy khôi
+                        </p>
+                    </div>
+                    <div class="person flex flexcenter">
+                        <div class="person_img">
+                            <img src="/imgs/avatar/135230879_860172894823220_288272338395133926_n.jpg"
+                                alt="Nguyen Hoang Nam">
+                        </div>
+
+                        <p class="person_name">
+                            Nguyễn Hoàng Nam
+                        </p>
+                    </div>
+                    <div class="support flex flexcontentcenter flexcenter">
+                        <i class="fa-light fa-question"></i>
+                        <p>support</p>
+                    </div>
+                    <a style="color:white" href="/index_signin.html">
+                        <div class="logout flex flexcontentcenter flexcenter">
+                            <p>Sign out</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==============menu_personal=================== -->
+    <div class="menu_personal_boss ">
+        <div class="menu_personal">
+            <div class="button_close flex">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="menu_personal_avatar flex flex_column flexcenter flexcontentcenter">
+                <div class="personal_avatar">
+                    <img src="/imgs/avatar/273288059_1839948503061140_3492401527090932606_n.jpg" alt="avatar">
+                </div>
+                <div class="personal_titles">
+                    <h1>HI, DUY KHÔI</h1>
+                    <p>
+                        Asia <i class="fa-solid fa-earth-asia"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="menu_personal_list  flex flex_column flexspacearound ">
+                <div class="personal_item_top">
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-house"></i> Home
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-ticket"></i> Movie
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-tv"></i> Shows
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-regular fa-star"></i> Rate
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-laptop"></i> Genre
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-list"></i> Play List
+                        </div>
+                    </a>
+                </div>
+                <div class="personal_item_mid">
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-regular fa-thumbs-up"></i> Like
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-regular fa-heart"></i> Favorites
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-play"></i> For You
+                        </div>
+                    </a>
+                </div>
+                <div class="personal_item_bottom">
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-gear"></i> Settings
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-user"></i> Memberships
+                        </div>
+                    </a>
+                    <a href="/index_signin.html">
+                        <div class="personal_item flex flexcenter">
+                            <i class="fa-solid fa-power-off"></i> Sign out
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============banner======================= -->
+    <div class="banner">
+        <img src="imgs/banner/Jumanji-The-Next-Level.webp" alt="jumanji">
+    </div>
+    <!-- ==================title======================= -->
+    <div class="title">
+        <a href="">
+            <h1>
+                Adventure Films
+            </h1>
+        </a>
+    </div>
+    <!-- =================film========================== -->
+    <div class="films flex flexcontentcenter">
+        <div class="film">
+            <div class="film_img">
+                <img src="imgs/films/z3593771061508_948b460b5b098ae36dbe7cb97f3cf916.jpg" alt="">
+            </div>
+            <div class="film_name">
+                Jumanji II
+            </div>
+            <div class="film_style">
+                <ul class="flex flexspacearound">
+                    <li>Adventure</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+            <div class="film_view">
+                <i class="fa-solid fa-eye"></i> 42.666
+            </div>
+        </div>
+
+        <div class="film">
+            <div class="film_img">
+                <img src="imgs/films/z3593771025275_2e43c18c1c4bc5cad3d6749cbf21b1af.jpg" alt="">
+            </div>
+            <div class="film_name">
+                Spider Man No Way Home
+            </div>
+            <div class="film_style">
+                <ul class="flex flexspacearound">
+                    <li>Adventure</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+            <div class="film_view">
+                <i class="fa-solid fa-eye"></i> 42.666
+            </div>
+        </div>
+
+        <div class="film">
+            <div class="film_img">
+                <img src="imgs/films/z3593771061508_948b460b5b098ae36dbe7cb97f3cf916.jpg" alt="">
+            </div>
+            <div class="film_name">
+                Jumanji II
+            </div>
+            <div class="film_style">
+                <ul class="flex flexspacearound">
+                    <li>Adventure</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+            <div class="film_view">
+                <i class="fa-solid fa-eye"></i> 42.666
+            </div>
+        </div>
+
+        <div class="film">
+            <div class="film_img">
+                <img src="imgs/films/z3593771025275_2e43c18c1c4bc5cad3d6749cbf21b1af.jpg" alt="">
+            </div>
+            <div class="film_name">
+                Spider Man No Way Home
+            </div>
+            <div class="film_style">
+                <ul class="flex flexspacearound">
+                    <li>Adventure</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+            <div class="film_view">
+                <i class="fa-solid fa-eye"></i> 42.666
+            </div>
+        </div>
+
+        <div class="film">
+            <div class="film_img">
+                <img src="imgs/films/z3593771061508_948b460b5b098ae36dbe7cb97f3cf916.jpg" alt="">
+            </div>
+            <div class="film_name">
+                Jumanji II
+            </div>
+            <div class="film_style">
+                <ul class="flex flexspacearound">
+                    <li>Adventure</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+            <div class="film_view">
+                <i class="fa-solid fa-eye"></i> 42.666
+            </div>
+        </div>
+
+        <div class="film">
+            <div class="film_img">
+                <img src="imgs/films/z3593771025275_2e43c18c1c4bc5cad3d6749cbf21b1af.jpg" alt="">
+            </div>
+            <div class="film_name">
+                Spider Man No Way Home
+            </div>
+            <div class="film_style">
+                <ul class="flex flexspacearound">
+                    <li>Adventure</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+            <div class="film_view">
+                <i class="fa-solid fa-eye"></i> 42.666
+            </div>
+        </div>
+
+        <div class="film">
+            <div class="film_img">
+                <img src="imgs/films/z3593771061508_948b460b5b098ae36dbe7cb97f3cf916.jpg" alt="">
+            </div>
+            <div class="film_name">
+                Jumanji II
+            </div>
+            <div class="film_style">
+                <ul class="flex flexspacearound">
+                    <li>Adventure</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+            <div class="film_view">
+                <i class="fa-solid fa-eye"></i> 42.666
+            </div>
+        </div>
+
+        <div class="film">
+            <div class="film_img">
+                <img src="imgs/films/z3593771025275_2e43c18c1c4bc5cad3d6749cbf21b1af.jpg" alt="">
+            </div>
+            <div class="film_name">
+                Spider Man No Way Home
+            </div>
+            <div class="film_style">
+                <ul class="flex flexspacearound">
+                    <li>Adventure</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+            <div class="film_view">
+                <i class="fa-solid fa-eye"></i> 42.666
+            </div>
+        </div>
+    </div>
+
+    <!-- ===========================footer=========================== -->
+    <!-- <div class="footer flex flexcenter">
+        <div class="footer_img">
+            <img src="imgs/cat1-removebg-preview (1).png" alt="">
+        </div>
+        <div class="footer_text">
+            <h1>Mọi người nhớ để lại đánh giá cho tụi mình nha</h1>
+        </div>
+    </div> -->
+    <!------------------------------ footer------------------------------- =-->
+    <div class="footer flex flexspacearound ">
+        <div class="footer_left">
+            <a href="">
+                <div class="location flex flexcenter">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <div class="location_info">
+                        <p class="location_1">Đường số 19</p>
+                        <p class="location_2" style="font-size:20px;font-weight:600">Hiệp Binh Chánh,TP.Thủ Đức</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="numberphone flex flexcenter">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="numberphone_info">
+                        <p>+84 362728158</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="gmail flex flexcenter">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="gmail_info">
+                        <p>2151050209khoi@ou.edu.vn</p>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="gmail flex flexcenter">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="gmail_info">
+                        <p>2151050266nam@ou.edu.vn</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="footer_right flex flexcenter">
+            <div class="aboutus">
+                <p style="font-size:20px;font-weight:600">About The Website</p>
+                <div class="aboutus_detail">
+                    <p style="opacity:0.6;">This is one of the best and trending movie online
+                        streaming sites which is
+                        absolutely free.
+                        The
+                        best part about Vudu is it provides free access to both new hit series as well as the old
+                        classical viewer’s choice movies
+                    </p>
+                </div>
+                <div class="aboutus_icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-twitch"></i>
+                    <i class="fa-brands fa-discord"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============================scroll to top===================== -->
+    <button class="scroll" onclick="getBackToDescription()">
+        <i class="fa-solid fa-angles-up"></i>
+    </button>
+</body>
+
+</html>

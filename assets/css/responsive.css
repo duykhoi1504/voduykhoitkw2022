@@ -1,0 +1,215 @@
+/* ================responsive==================== */
+/* .Tablet:width>740 width<1024 */
+@media only screen and (min-width:740px) and (max-width:1024px) {
+
+    /* =====header===== */
+
+    .search_boss {
+        display: none
+    }
+
+    .subright {
+        margin-right: 20px;
+    }
+
+    .logo>img {
+        width: 64px;
+    }
+
+    .avatar_img {
+        width: 30px !important;
+    }
+
+    .avatar {
+        padding-left: 0 !important;
+    }
+
+    .bell {
+
+        padding-bottom: 2000px;
+        font-size: 10px;
+    }
+
+    .bell_menu {
+        /* display: none; */
+        /* top: 40px;
+        right: 28px; */
+        /* width: 50%; */
+    }
+
+    /* =======video trailer======== */
+    .trailer>video {
+        width: 90%;
+    }
+
+    /* banner */
+
+    .banner_info {
+        width: 100%;
+    }
+
+    .banner {
+
+        padding: 46px 0 90px 36px;
+    }
+
+    .banner_img_png .img2 {
+        width: 168px;
+    }
+
+    .banner_title {
+        font-size: 6px;
+        font-weight: 600;
+        text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+        width: 30%;
+        color: white;
+    }
+
+    .banner_btn .button {
+        padding: 8px 16px;
+        margin: 0;
+        font-size: 6px;
+    }
+
+    .banner_trailer>a {
+        right: 60px;
+        font-size: 20px;
+    }
+
+    /* ============footer======== */
+    .footer_right {
+        width: 50%;
+    }
+}
+
+/* .Mobile:width<742px */
+@media only screen and (max-width:740px) {
+
+    /* =====header===== */
+    .nav {
+        display: none;
+    }
+
+    .search_boss {
+        display: none
+    }
+
+    .subright {
+        margin-right: 20px;
+    }
+
+    .logo>img {
+        width: 50px;
+    }
+
+    .avatar_img {
+        width: 20px !important;
+    }
+
+    .avatar {
+        padding-left: 0 !important;
+    }
+
+    .bell {
+
+        padding-bottom: 2000px;
+        font-size: 10px;
+    }
+
+    .bell_menu {
+        /* display: none; */
+
+        width: 300px;
+    }
+
+    /* banner */
+
+    .banner_info {
+        width: 100%;
+    }
+
+    .banner {
+
+        padding: 46px 0 90px 36px;
+    }
+
+    .banner_img_png .img2 {
+        width: 70px;
+    }
+
+    .banner_title {
+        font-size: 6px;
+        font-weight: 600;
+        text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+        width: 49%;
+        color: white;
+    }
+
+    .banner_btn .button {
+        padding: 8px 16px;
+        margin: 0;
+        font-size: 6px;
+    }
+
+    .banner_trailer>a {
+        left: 30px;
+        right: 240px;
+        font-size: 16px;
+    }
+
+    /* =======video trailer======== */
+    .trailer>video {
+        width: 90%;
+    }
+
+    /*============== navcontent ================*/
+    .navcontent {
+        padding: 0;
+        background: linear-gradient(0deg, black, transparent);
+        border: 1px solid white;
+    }
+
+    .navcontent_sub {
+        flex-direction: column;
+    }
+
+    .navcontent_sub li a {
+        display: block;
+        padding: 10px 46px;
+        text-align: center;
+        border: none;
+    }
+
+    .navcontent_sub li a:hover {
+        background-color: rgb(255, 179, 3);
+        /* color: rgb(78, 78, 249); */
+        color: #000000;
+
+    }
+
+    /* titles phim */
+    .adventure_films {
+        font-size: 10px;
+    }
+
+    /* footer */
+    .footer_right {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .aboutus {
+        text-align: center;
+    }
+
+    .aboutus p {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .aboutus_icon {
+        margin-bottom: 20px;
+    }
+
+
+}
