@@ -10,6 +10,10 @@
     z-index: 5;
 }
 
+.header a {
+    display: block;
+}
+
 .logo img {
     width: 110px;
 }
@@ -52,7 +56,7 @@ a {
 .subgenre {
     display: none;
     position: absolute;
-    padding-top: 34px;
+    padding-top: 14px;
 }
 
 .sublist {
@@ -546,7 +550,7 @@ a {
     /* =====header===== */
 
     .subgenre {
-        padding-top: 15px;
+        padding-top: 0;
     }
 
     .search_boss {
@@ -568,7 +572,7 @@ a {
 
     .avatar_menu {
         width: 215px;
-        top: 41px;
+        top: 45px;
     }
 
     .avatar_img {
@@ -580,7 +584,7 @@ a {
     }
 
     .bell_menu {
-        top: 47px;
+        top: 51px;
     }
 
     .bell_menu {
