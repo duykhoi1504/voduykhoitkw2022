@@ -142,7 +142,7 @@ a {
 
 /* ---------------bell------------------- */
 .bell {
-    padding: 12px 12px !important;
+    padding: 12px 20px !important;
     cursor: pointer;
     position: relative;
 }
@@ -230,7 +230,7 @@ a {
 .avatar {
     cursor: pointer;
     position: relative;
-
+    padding: 18px 0 !important;
 }
 
 .avatar img {
@@ -265,7 +265,7 @@ a {
     width: 250px;
     color: white;
     position: absolute;
-    top: 67px;
+    top: 86px;
     right: 0;
     border: 1px solid rgba(255, 255, 255, 0.344);
 }
@@ -561,8 +561,16 @@ a {
         margin-right: 20px;
     }
 
-    .logo>img {
+    .logo .img {
         width: 64px;
+    }
+
+    .subnav>li>a {
+        padding: 34px 20px;
+    }
+
+    .nav {
+        margin-right: 0;
     }
 
     .avatar_menu:before {
@@ -572,7 +580,7 @@ a {
 
     .avatar_menu {
         width: 215px;
-        top: 45px;
+        top: 77px;
     }
 
     .avatar_img {
@@ -584,7 +592,7 @@ a {
     }
 
     .bell_menu {
-        top: 51px;
+        top: 66px;
     }
 
     .bell_menu {
@@ -616,9 +624,7 @@ a {
         margin-right: 20px;
     }
 
-
-
-    .logo>img {
+    .logo img {
         width: 50px;
     }
 
@@ -629,7 +635,7 @@ a {
 
     .avatar_menu {
         width: 215px;
-        top: 31px;
+        top: 55px;
     }
 
     .avatar_img {
@@ -648,7 +654,7 @@ a {
 
     .bell_menu {
         /* display: none; */
-        top: 38px;
+        top: 44px;
         width: 300px;
     }
 
