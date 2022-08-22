@@ -71,7 +71,7 @@ html {
 /* play-movie */
 
 .container-inf4movies {
-    width: 100%;
+    width: 1200px;
     max-width: calc(100%-32px);
     margin: 0 auto;
     display: block;

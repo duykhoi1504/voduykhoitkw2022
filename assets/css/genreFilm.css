@@ -86,7 +86,7 @@ body {
 /* ===============title=========================== */
 .title {
     width: 100%;
-    background: linear-gradient(0deg, black, rgba(0, 0, 255, 0));
+    background: linear-gradient(84deg, #ff8e0b, rgba(0, 0, 255, 0));
     border-bottom: 1px solid white;
     margin-top: 60px;
 }
