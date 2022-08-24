@@ -26,7 +26,6 @@ window.onscroll = function () {
     if (window.scrollY > 200) {
         scrolltotop.style.visibility = "visible";
         scrolltotop.style.opacity = 1;
-
     } else {
         scrolltotop.style.visibility = "hidden";
         scrolltotop.style.opacity = 0;

@@ -532,6 +532,8 @@ a {
     background-color: white;
     color: black;
     /* box-shadow: #ffffff 2px 2px 2px 0; */
+    visibility: hidden;
+    opacity: 0;
 
 
 }
