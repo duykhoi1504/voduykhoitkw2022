@@ -14,13 +14,25 @@ function addsearch() {
     const search = document.querySelector('.search');
     search.classList.toggle('activesearch')
 }
-// scoll page to top
-function getBackToDescription() {
+// ======================scroll to top=========================
+const scrolltotop = document.getElementById('scroll-back')
+function getBack() {
     window.scrollTo({
         top: 0,
         left: 0, behavior: 'smooth'
     });
 }
+window.onscroll = function () {
+    if (window.scrollY > 200) {
+        scrolltotop.style.visibility = "visible";
+        scrolltotop.style.opacity = 1;
+
+    } else {
+        scrolltotop.style.visibility = "hidden";
+        scrolltotop.style.opacity = 0;
+    }
+};
+
 
 // sổ menu thông tin chi tiết ra và ẩn menu đi
 window.onload = function () {
