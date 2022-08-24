@@ -1,5 +1,5 @@
 function videobanner() {
-    const x = document.querySelector('.play')
+    const x = document.querySelector('#play_selector')
     // let h = `
     //     <div class="banner">
     // <video class="videobanner" src="/vids/signin_page_video/Sumeru Promotional Video｜Genshin Impact.mp4"
@@ -28,3 +28,5 @@ function pause() {
     const stop = document.querySelector(".banner");
     stop.remove(this)
 }
+// ======================
+
