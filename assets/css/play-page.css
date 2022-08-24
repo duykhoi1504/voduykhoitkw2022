@@ -47,7 +47,7 @@ html {
 
 /* ========================banner====================== */
 .banner {
-    background: url('/imgs/play-page/film_1/bannerjumanji.jpg');
+    background: url('../../imgs/play-page/film_1/bannerjumanji.jpg');
     width: 100%;
     height: 650px;
     position: absolute;
